@@ -36,7 +36,7 @@ const Footer = () => (
                                         className={`font-poppins font-normal 
                                         text-[16px] leading-[24px] text-dimWhite
                                         hover:text-secondary cursor-pointer
-                                        {index !== footerLink.links.length - 1 ? 
+                                        ${index !== footerLink.links.length - 1 ? 
                                          'mb-4' : 'mb-0'}`}
                                         >
                                             {link.name}
